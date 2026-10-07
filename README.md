@@ -1,11 +1,25 @@
-﻿# LumiList Extracted Project
+# LumiList Extracted Project
 
 This is a static web project created from the extracted HTML/CSS in the LumiList MHTML archive.
 
-## Files
-- index.html — extracted page source
-- styles.css — extracted stylesheet
-- onts.googleapis.com_css2_family=Inter_wght@100..900_display=swap — original Google Fonts CSS reference file
+## How to Run
 
-## Use
-Open index.html in a browser to view the page. The page still references Google Fonts externally.
+Run the project with a single command:
+
+```powershell
+npm start
+```
+or
+```powershell
+npm run dev
+```
+
+This will automatically launch a live-reloading server on port 3000 and open the site in your default browser.
+
+### Windows Shortcut
+You can also run [start.bat](file:///e:/project2/project3/00009/Luminas-Web-Demo/start.bat) by double-clicking it.
+
+## Files
+- `index.html` — extracted page source
+- `styles.css` — extracted stylesheet
+- `package.json` — project configuration & scripts
